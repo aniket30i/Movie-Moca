@@ -7,7 +7,7 @@ interface Props {
   onPress?: () => void;
 }
 const SearchBar = ({ placeholder, onPress }: Props) => {
-  console.log(EXPO_PUBLIC);
+  console.log();
   return (
     <View className="flex-row items-center bg-dark-200 rounded-full px-5 py-4">
       <Image
